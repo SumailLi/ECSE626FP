@@ -1,10 +1,10 @@
-# wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Py2nadGXyeNBwPDzrrrPaRsYyy-UVZE9' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Py2nadGXyeNBwPDzrrrPaRsYyy-UVZE9" -O Models.zip && rm -rf /tmp/cookies.txt
-# unzip Models.zip
-# rm Models.zip
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Py2nadGXyeNBwPDzrrrPaRsYyy-UVZE9' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Py2nadGXyeNBwPDzrrrPaRsYyy-UVZE9" -O Models.zip && rm -rf /tmp/cookies.txt
+unzip Models.zip
+rm Models.zip
 
-# wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1SQlYawHkBggs6smS3FGH4nLrfGrp5A-d' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1SQlYawHkBggs6smS3FGH4nLrfGrp5A-d" -O RPN_results.zip && rm -rf /tmp/cookies.txt
-# unzip RPN_results.zip
-# rm RPN_results.zip
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1SQlYawHkBggs6smS3FGH4nLrfGrp5A-d' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1SQlYawHkBggs6smS3FGH4nLrfGrp5A-d" -O RPN_results.zip && rm -rf /tmp/cookies.txt
+unzip RPN_results.zip
+rm RPN_results.zip
 
 cd Dataset
 
